@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <h1>Crystal Collector!!</h1>
+    <p> You will be given a random number at the start of the game. 
+
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+            
+        You win the game by matching your total score to random number, you lose the game if your total score goes aboev the random number.  
+            
+        The value of each crystal is hidden from you until you click on it. 
+            
+        Each time when tthe game starts, the game will change the values of each crystal. </p>
+
+    <div id="winningNumber"></div>
+    <div id="counter"></div>
+
+    <div>
+        <button id="jewel1" type="submit"><img src="assets/images/blue diamond.png" alt="Click for Value"></button>
+        <button id="jewel2" type="submit"><img src="assets/images/green gem.png" alt="Click for Value"></button>
+        <button id="jewel3" type="submit"><img src="assets/images/purple gem.png" alt="Click for Value"></button>
+        <button id="jewel4" type="submit"><img src="assets/images/red ruby.png" alt="Click for Value"></button>
+    </div>
+    <p id="usersScore"></p>
+
+    <div >
+        <h2 id="currentCount"> Hello </h2>
+    </div>
+        
+</body>
+</html>
